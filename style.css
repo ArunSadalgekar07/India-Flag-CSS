@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Source Code Pro", monospace;
+    margin: 20px 0px 0px 150px;
+    font-size: 60px;
+    /* margin-left: 250px; */
+}
+
+#container{
+    margin: 25px;
+    height: 450px;
+    width: 600px;
+    position: relative;
+    border: black solid 1px;
+}
+
+#orange{
+    background-color: rgb(255, 94, 0);
+    height: 150px;
+    width: 100%;
+}
+
+#white{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+#ashokChakra img{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 250px;
+    border-radius: 50%;
+    /* animation: rotate 6s linear infinite; */
+    animation : rotate 4s linear infinite
+}
+
+#green{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    background-color: green;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:768px){
+    h1{
+        margin: 20px;
+        font-size: 2.5rem;
+        margin-left: 20%;
+        
+    }
+
+    #container{
+        margin: 25px;
+        margin-top: 150px;
+        height: 150px;
+        width: 250px;
+        position: relative;
+        border: black solid 1px;
+    }
+    
+    #orange{
+        background-color: rgb(255, 94, 0);
+        height: 50px;
+        width: 100%;
+    }
+    
+    #white{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+    }
+    
+    #ashokChakra img{
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 5px;
+        left: 105px;
+        border-radius: 50%;
+        animation : rotate 4s linear infinite
+    }
+    
+    #green{
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        background-color: green;
+    }
+}
+
