@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/India_Flag_Project.git
+    git clone https://github.com/ArunSadalgekar07/India_Flag_Project.git
     ```
 2. Navigate to the project directory:
     ```bash
